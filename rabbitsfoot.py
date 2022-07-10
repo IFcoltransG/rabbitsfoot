@@ -1,5 +1,6 @@
 import pathlib
 import itertools
+import random
 import sys
 
 def cmp(a, b):
