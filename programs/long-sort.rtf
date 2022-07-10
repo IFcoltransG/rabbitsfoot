@@ -1,0 +1,147 @@
+# This is the ungolfed version of the code. Both programs take input as a Python list repr passed to standard input, and return output as a Python list repr to standard output.
+
+# STEP 1
+
+# get [B A]
+,
+[1 0]
+# at this point, interpreter will infer that we want two inputs
+*
+,
+[0 1]
+*
+# [A 0] [0 B] <-TOS
+~
++
+# [B A] <-TOS
+
+# get [A-B B-A]
+[-1 -1]
+*
+,
++
+# [A-B B-A] <-TOS
+
+# check [cmp(A,B) cmp(B,A)]
+-
+
+# add [1 1]
+[1 1]
++
+# halve, rounding down
+/
+# if a>b: [1 0]
+# if a<b: [0 1]
+# if a=b: [0 0]
+
+# calculate [1-y y] from [x y]
+# first, we need to do it all again
+# minus a few steps:
+[0 1]
+*
+# x deleted from this one
+
+# push a [0 0] onto stack for some transposing
+[0 0]
+
+# now, lets restart
+,
+[1 0]
+*
+,
+[0 1]
+*
+~
++
+[-1 -1]
+*
+,
++
+-
+[1 1]
++
+/
+# phew!
+# delete x
+
+# get [0 -y]
+[0 -1]
+*
+
+
+~
++
+# have [-y 0]
+# add to [0 y]
++
+# add to [1 0]
+[1 0]
++
+# if a>b: [1 0]
+# if a<b: [0 1]
+# if a=b: [1 0]
+
+# STEP 2
+,
+*
+
+# STEP 3
+# repeat step 1
+,
+[1 0]
+*
+,
+[0 1]
+*
+~
++
+[-1 -1]
+*
+,
++
+-
+[1 1]
++
+/
+[0 1]
+*
+[0 0]
+,
+[1 0]
+*
+,
+[0 1]
+*
+~
++
+[-1 -1]
+*
+,
++
+-
+[1 1]
++
+/
+[0 -1]
+*
+~
++
++
+[1 0]
++
+
+# duplicated now invert
+[-1 -1]
+*
+[1 1]
++
+
+# if you squint, this is matrix multiplication
+
+,
+*
+~
++
+
+# sorted our pair of integers
+.
