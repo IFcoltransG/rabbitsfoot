@@ -11,7 +11,7 @@ It was designed by IFcoltransG in 2022 for the first inaugural Esolangs Buffet e
 Rabbitsfoot's file extension is `.rtf` for programs, or `.rtfm` for Rabbitsfoot library modules.
 
 ## Context
-For the event, participants had to design an esolang and secretly writing a 100 byte sorting program in it. Then competitors had to work out how to create a sorting program in everybody else's languages, only without the size restriction. Three people (other than yours truly) successfully created a sorting algorithm in Rabbitsfoot, out of seven.
+For the event, participants had to design an esolang and secretly write a 100 byte sorting program in it. Then competitors had to work out how to create a sorting program in everybody else's languages, only without the size restriction. Three people (other than yours truly) successfully created a sorting algorithm in Rabbitsfoot, out of seven.
 
 ## Usage
 Run the interpreter on your program from the command line.
