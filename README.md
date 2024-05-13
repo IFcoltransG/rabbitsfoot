@@ -189,7 +189,7 @@ These symbols deserve respect for their longstanding contribution to the buttons
 - `+`
 - `*`
 - `/`
-### Other brainfuck symbols
+### Other [brainfuck](https://esolangs.org/wiki/brainfuck) symbols
 These symbols have contributed meaningfully to the history of esolangs.
 - `,`
 - `.`
