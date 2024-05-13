@@ -4,7 +4,7 @@
 > “I think that someone will remember us in another time.”  
 > — Sappho of Lesbos (Lobel & Page, Fragment 147)
 
-The Rabbitsfoot language employs the revolutionary new "rabbitsfoot" paradigm, which some liken to the sweet-spot between blockchain, quantum computing, and big data. It also employs the imperative paradigm, which is counter-revolutionary and old.
+The Rabbitsfoot language employs the revolutionary new "rabbitsfoot" paradigm, which some liken to the sweet-spot between blockchain, quantum computing, and big data. It also employs the imperative paradigm, which is not new or revolutionary, in fact is counter-revolutionary and old.
 
 It was designed by IFcoltransG in 2022 for the first inaugural Esolangs Buffet event on the Unofficial Esolangs Discord Server. (The first inaugural one, not for any other inaugural ones after that.)
 
