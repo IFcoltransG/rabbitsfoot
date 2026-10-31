@@ -1,3 +1,5 @@
+# [MIGRATED TO CODEBERG 2026-10-31](https://codeberg.org/IFcoltransG/rabbitsfoot)
+
 <!--Please note that this specification is written in PLAIN TEXT as per the Esolang Buffet rules-->
 
 # Rabbitsfoot
